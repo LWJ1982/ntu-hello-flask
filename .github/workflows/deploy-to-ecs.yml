@@ -5,12 +5,12 @@ on:
     branches: [ "main" ]
 
 env:            
-  AWS_REGION: ap-southeast-1           
-  ECR_REPOSITORY: jaz-terraform-ecr       
-  ECS_SERVICE: ecsdemo         
-  ECS_CLUSTER: jaz-terraform-ecs                    
-  CONTAINER_NAME: ecs-sample
-  TASKDEF: ecsdemo
+AWS_REGION: ap-southeast-1           
+ECR_REPOSITORY: limwj-terraform-ecr       
+ECS_SERVICE: limwj-ecsdemo         
+ECS_CLUSTER: limwj-terraform-ecs                    
+CONTAINER_NAME: limwj-ecs
+TASKDEF: limwj-ecsdemo
                                                
 jobs:
   deploy:
